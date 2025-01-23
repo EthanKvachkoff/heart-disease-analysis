@@ -83,10 +83,16 @@ fig8 = px.scatter(
 )
 
 fig9 = px.bar(
-    df, 
-    y='ca',  # Chest Pain Type
-    color = 'target',
-    title='Chest Pain Type Distribution',
+    df,
+    x='cp',  # Chest Pain Type
+    y='ca',  # Number of Major Vessels (0–3) Colored by Fluoroscopy
+    color='target',
+    title='Chest Pain Type vs. Number of Major Vessels',
+    labels={
+        'cp': 'Chest Pain Type',
+        'ca': 'Number of Major Vessels (0–3)',
+        'target': 'Heart Disease Presence'
+    }
 )
 
 fig10 = px.box(
@@ -107,5 +113,5 @@ fig10 = px.box(
 #fig7.update_layout(yaxis=dict(range=[0, 3]))
 #fig7.show()
 #fig8.show()
-#fig9.show()
-fig10.show()
+fig9.show()
+#fig10.show()
