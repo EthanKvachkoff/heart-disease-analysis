@@ -106,7 +106,7 @@ This project highlights the important relationships between various factors (suc
    pip install -r requirements.txt
 3. Run the script to generate and display the visualizations:
     ```bash
-    python analysis_script.py
+    python heart_disease_analysis.py
 
 ## Data File
 
