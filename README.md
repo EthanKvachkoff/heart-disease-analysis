@@ -27,48 +27,80 @@ The dataset consists of the following columns:
 
 ## Visualizations and Insights
 
+> **Note**: The images below are static representations of the visualizations.  
+> To explore the fully interactive versions of these visualizations, please download the project and run the code locally.  
+> For detailed setup instructions, see the [Installation & Usage](#installation--usage) section..
+
 This project generates 10 different visualizations to analyze various aspects of heart disease, including distribution of patient demographics, chest pain types, and correlations between medical factors and heart disease. The visualizations include:
 
 ### 1. **Gender Distribution With Heart Disease**
-   - **Visualization Type**: Pie Chart
-   - **Insight**: This chart shows the proportion of males and females with heart disease. The visualization reveals whether gender plays a role in the occurrence of heart disease among patients.
-   ![Interactive Plot](interactive_plots/fig1_gender_distribution.html)
+   - **Visualization Type**: Pie Chart  
+   - **Insight**: This chart shows the proportion of males and females with heart disease. The visualization reveals whether gender plays a role in the occurrence of heart disease among patients.  
+   ![Gender Distribution With Heart Disease](images/gender_distribution_with_heart_disease.png)
+
+---
 
 ### 2. **Gender Distribution**
-   - **Visualization Type**: Histogram
-   - **Insight**: This histogram shows the overall gender distribution in the dataset, providing a broader understanding of the gender demographics in the study population.
+   - **Visualization Type**: Histogram  
+   - **Insight**: This histogram shows the overall gender distribution in the dataset, providing a broader understanding of the gender demographics in the study population.  
+   ![Gender Distribution](images/gender_distribution.png)
+
+---
 
 ### 3. **Chest Pain Type Distribution**
-   - **Visualization Type**: Bar Chart
-   - **Insight**: This bar chart illustrates the distribution of chest pain types, highlighting the prevalence of different chest pain categories among patients. It provides a breakdown of how common each type of pain is, helping us to understand potential risk factors associated with each category.
+   - **Visualization Type**: Bar Chart  
+   - **Insight**: This bar chart illustrates the distribution of chest pain types, highlighting the prevalence of different chest pain categories among patients. It provides a breakdown of how common each type of pain is, helping us to understand potential risk factors associated with each category.  
+   ![Chest Pain Distribution](images/chest_pain_distribution.png)
+
+---
 
 ### 4. **Blood Pressure Levels vs Heart Disease**
-   - **Visualization Type**: Strip Plot
-   - **Insight**: This strip plot compares blood pressure levels across patients with and without heart disease. It helps identify any trends or correlations between high blood pressure and the presence of heart disease.
+   - **Visualization Type**: Strip Plot  
+   - **Insight**: This strip plot compares blood pressure levels across patients with and without heart disease. It helps identify any trends or correlations between high blood pressure and the presence of heart disease.  
+   ![Blood Pressure vs Heart Disease](images/blood_pressure_vs_heart_disease.png)
+
+---
 
 ### 5. **Cholesterol Levels vs Heart Disease**
-   - **Visualization Type**: Strip Plot
-   - **Insight**: This plot examines cholesterol levels in patients and compares those with heart disease to those without. Elevated cholesterol is often a key risk factor for heart disease, and this chart helps visualize its significance.
+   - **Visualization Type**: Strip Plot  
+   - **Insight**: This plot examines cholesterol levels in patients and compares those with heart disease to those without. Elevated cholesterol is often a key risk factor for heart disease, and this chart helps visualize its significance.  
+   ![Cholesterol vs Heart Disease](images/cholesterol_vs_heart_disease.png)
+
+---
 
 ### 6. **Fasting Blood Sugar vs Heart Disease**
-   - **Visualization Type**: Bar Chart
-   - **Insight**: The chart illustrates the relationship between fasting blood sugar levels and heart disease. It shows whether a higher fasting blood sugar level correlates with a greater likelihood of having heart disease.
+   - **Visualization Type**: Bar Chart  
+   - **Insight**: The chart illustrates the relationship between fasting blood sugar levels and heart disease. It shows whether a higher fasting blood sugar level correlates with a greater likelihood of having heart disease.  
+   ![Fasting Blood Sugar vs Heart Disease](images/fasting_blood_sugar_vs_heart_disease.png)
+
+---
 
 ### 7. **Number of Major Vessels vs Heart Disease**
-   - **Visualization Type**: Bar Chart
-   - **Insight**: This bar chart explores the relationship between the number of major vessels (identified by fluoroscopy) and heart disease. Fewer vessels visible in fluoroscopy are often indicative of more severe heart disease, making this a critical chart for medical analysis.
+   - **Visualization Type**: Bar Chart  
+   - **Insight**: This bar chart explores the relationship between the number of major vessels (identified by fluoroscopy) and heart disease. Fewer vessels visible in fluoroscopy are often indicative of more severe heart disease, making this a critical chart for medical analysis.  
+   ![Vessels vs Heart Disease](images/vessels_vs_heart_disease.png)
+
+---
 
 ### 8. **Age vs Heart Rate**
-   - **Visualization Type**: Scatter Plot
-   - **Insight**: This scatter plot investigates the relationship between a patient’s age and maximum heart rate achieved during exercise. It helps to identify whether there is any age-related decline in heart rate and if this is associated with the presence of heart disease.
+   - **Visualization Type**: Scatter Plot  
+   - **Insight**: This scatter plot investigates the relationship between a patient’s age and maximum heart rate achieved during exercise. It helps to identify whether there is any age-related decline in heart rate and if this is associated with the presence of heart disease.  
+   ![Age vs Heart Rate](images/age_vs_heart_rate.png)
+
+---
 
 ### 9. **Chest Pain Type vs Number of Major Vessels**
-   - **Visualization Type**: Bar Chart
-   - **Insight**: This chart compares chest pain types with the number of major vessels seen in fluoroscopy. It can help determine whether certain types of chest pain are linked to a higher number of blocked vessels.
+   - **Visualization Type**: Bar Chart  
+   - **Insight**: This chart compares chest pain types with the number of major vessels seen in fluoroscopy. It can help determine whether certain types of chest pain are linked to a higher number of blocked vessels.  
+   ![Chest Pain vs Vessels](images/chest_pain_vs_vessels.png)
+
+---
 
 ### 10. **Heart Rate vs Exercise-Induced Angina**
-   - **Visualization Type**: Box Plot
-   - **Insight**: This box plot visualizes the relationship between exercise-induced angina and heart rate. It can provide insights into how exercise-induced angina might correlate with heart disease severity, as patients experiencing angina may have lower heart rates during exercise.
+   - **Visualization Type**: Box Plot  
+   - **Insight**: This box plot visualizes the relationship between exercise-induced angina and heart rate. It can provide insights into how exercise-induced angina might correlate with heart disease severity, as patients experiencing angina may have lower heart rates during exercise.  
+   ![Heart Rate vs Exercise-Induced Angina](images/heart_rate_vs_exercise_induced_angina.png)
+
 
 ## Key Findings
 
