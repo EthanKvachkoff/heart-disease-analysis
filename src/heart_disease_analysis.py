@@ -13,7 +13,8 @@ from visualizations import (
 )
 from data_processing import load_and_process_data, filter_by_heart_disease
 from config import DATA_FILE
-
+import os
+os.makedirs("interactive_plots", exist_ok=True)
 # Load and process data
 df = load_and_process_data(DATA_FILE)
 filtered_df = filter_by_heart_disease(df)
@@ -29,6 +30,19 @@ fig7 = vessels_vs_heart_disease(df)
 fig8 = age_vs_heart_rate(df)
 fig9 = chest_pain_vs_vessels(df)
 fig10 = heart_rate_vs_exercise_induced_angina(df)
+
+
+# Save the visualizations as HTML files
+fig1.write_html("interactive_plots/fig1_gender_distribution.html")
+fig2.write_html("interactive_plots/fig2_gender_distribution_histogram.html")
+fig3.write_html("interactive_plots/fig3_chest_pain_distribution.html")
+fig4.write_html("interactive_plots/fig4_blood_pressure_vs_heart_disease.html")
+fig5.write_html("interactive_plots/fig5_cholesterol_vs_heart_disease.html")
+fig6.write_html("interactive_plots/fig6_fasting_blood_sugar_vs_heart_disease.html")
+fig7.write_html("interactive_plots/fig7_vessels_vs_heart_disease.html")
+fig8.write_html("interactive_plots/fig8_age_vs_heart_rate.html")
+fig9.write_html("interactive_plots/fig9_chest_pain_vs_vessels.html")
+fig10.write_html("interactive_plots/fig10_heart_rate_vs_exercise_induced_angina.html")
 
 # Create subplots with specific types for pie charts
 fig = make_subplots(
@@ -59,6 +73,7 @@ fig.add_trace(fig6.data[0], row=4, col=1)
 fig.add_trace(fig7.data[0], row=4, col=2)
 fig.add_trace(fig8.data[0], row=5, col=1)
 fig.add_trace(fig9.data[0], row=5, col=2)
+fig.add_trace(fig10.data[0], row=5, col=2)
 
 # Shows legend for charts
 fig.update_traces(showlegend=True, selector=dict(type='pie'))
