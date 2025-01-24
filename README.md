@@ -175,7 +175,7 @@ These enhancements would provide deeper insights into the dataset and could be v
 ## Authors
 
 - **Ethan Kvachkoff**  
-  - <a href="https://ethankvachkoff.github.io/" target="_blank">Portfolio</a>
-   - <a href="https://www.linkedin.com/in/ethan-kvachkoff/" target="_blank">LinkedIn</a>
-   - <a href="https://github.com/EthanKvachkoff" target="_blank">GitHub</a>
-   - <a href="mailto:kvachkoff.ethan@gmail.com" target="_blank">kvachkoff.ethan@gmail.com</a>
+  - [Portfolio](https://ethankvachkoff.github.io/)  
+  - [LinkedIn](https://www.linkedin.com/in/ethan-kvachkoff/)  
+  - [GitHub](https://github.com/EthanKvachkoff)
+  - [kvachkoff.ethan@gmail.com](mailto:kvachkoff.ethan@gmail.com) 
