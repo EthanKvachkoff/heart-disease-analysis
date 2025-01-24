@@ -32,7 +32,7 @@ This project generates 10 different visualizations to analyze various aspects of
 ### 1. **Gender Distribution With Heart Disease**
    - **Visualization Type**: Pie Chart
    - **Insight**: This chart shows the proportion of males and females with heart disease. The visualization reveals whether gender plays a role in the occurrence of heart disease among patients.
-   [Interactive Plot](interactive_plots/fig1_gender_distribution.html)
+   ![Interactive Plot](interactive_plots/fig1_gender_distribution.html)
 
 ### 2. **Gender Distribution**
    - **Visualization Type**: Histogram
