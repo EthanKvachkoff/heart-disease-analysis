@@ -171,3 +171,11 @@ While the current visualizations provide valuable insights, further exploration 
    - **Interactive Dashboards**: Build an interactive dashboard to allow users to filter and explore the data in real-time, which would provide more dynamic insights.
 
 These enhancements would provide deeper insights into the dataset and could be valuable in predicting and understanding heart disease, potentially aiding in preventative healthcare measures.
+
+## Authors
+
+- **Ethan Kvachkoff**  
+  - [Portfolio](https://ethankvachkoff.github.io/)  
+  - [LinkedIn](https://www.linkedin.com/in/ethan-kvachkoff/)  
+  - [GitHub](https://github.com/EthanKvachkoff)
+  - [kvachkoff.ethan@gmail.com](mailto:kvachkoff.ethan@gmail.com) 
