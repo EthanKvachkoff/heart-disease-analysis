@@ -1,8 +1,11 @@
 import plotly.express as px
 
 def gender_distribution_with_heart_disease(filtered_df):
+    if filtered_df.empty or 'sex' not in filtered_df.columns:
+        print("Data is empty or missing required columns.")
+        return None
     return px.pie(
-        filtered_df, 
+        filtered_df,
         names='sex',
         title='Gender Distribution With Heart Disease',
         hover_data=["target"]

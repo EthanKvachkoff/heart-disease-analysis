@@ -12,4 +12,4 @@ def load_and_process_data(file_path):
     return df
 
 def filter_by_heart_disease(df):
-    return df.loc[df["target"] == 1]
+    return df.loc[df["target"] == 'Heart Disease']
