@@ -4,7 +4,7 @@
 
 This project performs data analysis and visualizations on a dataset related to heart disease. The dataset contains information about patients' medical attributes such as age, sex, cholesterol levels, blood pressure, and more. The goal of this analysis is to explore patterns, relationships, and insights related to the occurrence of heart disease, using various statistical and visual techniques.
 
-We use **Plotly** for interactive visualizations, which allow us to uncover significant trends and relationships within the data.
+I use Plotly for interactive visualizations, which allow me to uncover significant trends and relationships within the data.
 
 ## Dataset Overview
 
