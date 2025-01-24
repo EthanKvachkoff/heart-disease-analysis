@@ -91,7 +91,7 @@ This project highlights the important relationships between various factors (suc
 
 ### Requirements
 
-- Python 3.x
+- Python 3.x (Version 3.11.9 was used)
 - Pandas
 - Plotly
 - Other dependencies (as listed in the `requirements.txt` file)
