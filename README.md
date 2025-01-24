@@ -29,7 +29,7 @@ The dataset consists of the following columns:
 
 > **Note**: The images below are static representations of the visualizations.  
 > To explore the fully interactive versions of these visualizations, please download the project and run the code locally.  
-> For detailed setup instructions, see the [Installation & Usage](#installation--usage) section..
+> For detailed setup instructions, see the [Installation & Usage](#installation--usage) section.
 
 This project generates 10 different visualizations to analyze various aspects of heart disease, including distribution of patient demographics, chest pain types, and correlations between medical factors and heart disease. The visualizations include:
 
